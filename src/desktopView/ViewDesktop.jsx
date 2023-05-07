@@ -5,8 +5,8 @@ import HomeDesktop from "../components/desktopComponents/desktopHome/HomeDesktop
 import NotesDesktop from "../components/desktopComponents/desktopNotes/NotesDesktop";
 
 function ViewDesktop() {
-    const [selected, setSelected] = useState(""); // eslint-disable-line
-    const [notes, setNotes] = useState([]); // eslint-disable-line
+    const [selected, setSelected] = useState("");
+    const [notes, setNotes] = useState([]); 
   
     return (
       <div className="desktop">
